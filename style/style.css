@@ -1,0 +1,85 @@
+@font-face {
+    font-family: "creato" ;
+    src: url(./creato_display/CreatoDisplay-Black.otf);
+}
+
+@font-face {
+    font-family: "vogue";
+    src: url(./vogue/Vogue.ttf);
+}
+
+* {
+margin: 30; 
+padding: 30;
+box-sizing: 30;
+
+  /* mes couleurs */
+
+--col-darkblue : #120726;
+
+--col-darkblue2 : #35304A;
+
+--col-lightblue : #D2D9FF;
+ 
+--col-white : #ffffff;
+
+--col-mediumblue : #35304A;
+
+--col-blue2 : #40517B;
+
+}
+
+body {
+    font-family: "creato" , sans-serif ;
+    background-color: var(--col-darkblue);
+}
+
+h1 {
+    font-family: "vogue" , sans-serif;
+}
+
+#inter1 {
+    background-image: url(../asset/education-logo-open-book-dictionary-textbook-or-notebook-with-sunrice-icon-modern-emblem-idea-concept-design-for-business-libraries-schools-universities-educational-courses-vector.jpg);
+
+}
+
+#inter2 {
+    background-image: url(../asset/education-logo-open-book-dictionary-textbook-or-notebook-with-sunrice-icon-modern-emblem-idea-concept-design-for-business-libraries-schools-universities-educational-courses-vector.jpg);
+
+}
+
+.inter-article {
+    width: 100vw;
+    aspect-ratio: 3/1;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Reglage des articles */
+
+article {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+
+    width: 70%;
+    padding: 15px;
+
+    background-color: var(--col-darkblue2);
+    border-radius: 10px;
+    color: var(--col-lightblue);
+    box-shadow: var(--col-lightblue);
+}
+
+.art-text {
+
+    display: block;
+    width: 45%;
+}
+
+.art-illus {
+    display: block;
+
+}
