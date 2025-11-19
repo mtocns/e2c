@@ -153,6 +153,7 @@ main>* {
     background-repeat: no-repeat;
     background-size: 100vw;
     background-position-y: center;
+    border-radius: 5%;
 
     background-attachment: fixed;
 
@@ -182,6 +183,8 @@ article {
 .art-illus {
     display: block;
     width: 45%;
+    border-radius: 5%;
+    border: #000000 solid 6px;
 }
 
 footer {
